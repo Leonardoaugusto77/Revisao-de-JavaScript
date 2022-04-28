@@ -7,6 +7,5 @@
      <li>As aulas que eu usei como base para criação dessa revisão é da Playlist do canal CFB - Cursos https://www.youtube.com/playlist?list=PLx4x_zx8csUj3IbPQ4_X5jis_SkCol3eC"></li>  
 </ul>
 
-
-<img src="MacBook Pro 14_ - 1.png" alt="IMG de Revisão">
+ <img src="MacBook Pro 14_ - 1.png" alt="IMG de Revisão">
 
