@@ -11,6 +11,10 @@ if(){
 
 }
 
+
+OBS...
+Quando temos várias possibilidades de retorno não utilizamos o AND e OR, só utilizamos
+quando temos vários valores para o mesmo retorno 
 */
 
 
