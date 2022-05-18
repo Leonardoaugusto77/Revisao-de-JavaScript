@@ -3,13 +3,13 @@ Array é um objeto global usado na construção de algo como listas, também pod
 Nessa primeira aula vamos ver o metodo push. 
 
 Metodo push -- Adiciona um ou mais elementos ao final de um Array
-ou seja toda vez que o push for executado será adicionado um novo elemento no começo da nossa "Lista" vamos ver um exemplo
+ou seja toda vez que o push for executado será adicionado um novo elemento no final da nossa "Lista" vamos ver um exemplo
 
 */
 
 
 
-var array = [1,2,3,4] // <-- Lembrando que esse array é um vetor(ou seja um array unidimensional)e só pode ser controlado por um indice
+var array = [1,2,3,4] // <-- Lembrando que esse array é um vetor(ou seja um array unidimensional) e só pode ser controlado por um indice
                       // Preste atenção que o nosso array tem 4 posições
 array.push(5) // Como eu expliquei a cima o push vai adicionar o número 5 no final do Array
 
@@ -45,6 +45,6 @@ console.log(cor[0])
 var itens = ["Faca","Laterna","Pilhas","Canivete","Kit de primeiro socorros"]
 var mochila = [] // <- Podemos adicionar um array dentro de outro
 
-mochila.push(itens[4])
+mochila.push(itens[1])
 
 console.log(mochila[0])
