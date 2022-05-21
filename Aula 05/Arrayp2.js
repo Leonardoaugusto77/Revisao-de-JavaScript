@@ -1,6 +1,4 @@
-// Utilizando
-
-
+// Utilizando Unshift, Pop, Shift, Splice
 
 // Unshift <-- Adicona um ou mais elementos no ínico de um array e retorna o número de elementos 
 
@@ -11,9 +9,9 @@ mochila.push("Corda")
 mochila.push("Pederneira")
 mochila.push("Chave")
 mochila.push("Lanterna")
-mochila.unshift("Pedra") // <-- Atráves do console.log podemos ver por conta do Unshift a Pedra passa a ficar no indice[0] do nosso Array 
+mochila.unshift("Pedra") // <-- Atráves do console.log podemos ver que por conta do Unshift a Pedra passa a ficar no indice[0] do nosso Array 
 
-// Pop <-- Remove o último elemento de um array e retorna aquele elemento
+// Pop <-- Remove o último elemento de um array
 
 mochila.pop() // <-- Vai remover a laterna do nosso Array
 
