@@ -1,6 +1,6 @@
 /* AND (&&) e OR(||), são comparadores que trabalham com valores booleanos
 
-   AND (&&) Só retorna verdadeuri quando todos os testes forem True
+   AND (&&) Só retorna verdadeiro quando todos os testes forem True
    
    AND - Table
    V + F = F
