@@ -20,7 +20,7 @@ console.log(array) // Chamando o Array
 // Outro Exemplo
 
 // var cor = new Array() <--- Podemos usar essa sintaxe para criar o Nosso Array
-var cor = []
+var cor = new Array()
 
 
 cor.push("Preto")
