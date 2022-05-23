@@ -12,7 +12,7 @@ mochila.push("Chave") // 3
 mochila.push("Laterna") // 4
 mochila.push("Pedra") // 5
 
-let pos = mochila.indexOf("Pedra")  /* Nesse exemplo usamos o if junto como Array para podermos praticar usar várias ferramentas do JavaScript(ES6) */
+let pos = mochila.indexOf("Pedra")  /* Nesse exemplo usamos o if junto com Array para podermos praticar usar várias ferramentas do JavaScript(ES6) */
 
 if(pos < 0){
     console.log("Item não está na mochila!") // Caso o valor recebido por pos for menor a 0 o console vai retornar uma mensagem ea posição do item dentro do Array já que o indexOf está sendo utilizado
