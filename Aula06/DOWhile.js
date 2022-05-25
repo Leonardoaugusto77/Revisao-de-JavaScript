@@ -17,17 +17,16 @@
 
     Vamos ver como o Do While
 
-
-
  */
 
-    let num = 
+    let num = 10
 
     do{ // Faça 
         console.log("Leonardo Augusto - Desenvolvedor Front - end jr")
     } while(num < 5) // teste
 
-    // No caso a cima primeiro eu executo o bloco de comando e depois eu faço o teste, isso garante a execução pelo menos uma vez
+    // No caso a cima primeiro e executado o bloco de comando e depois e feito o teste, isso garante a execução pelo menos uma vez do bloco
+
 
 
 
