@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+    
+    var num 
+    
+    try{ //Pode lançar uma exceçção
+        num=prompt("Digite um valor!")
+        if(num>10){
+            throw new Error ("Valor inválido") // O thorow é responsavel por gerar o Erro manualmente
+        }
+        document.write("Valor: " +num)
+    }catch(e){ // Será executado caso a exceção seja lançada
+        document.write("Erro!!! o valor é maior que 10")
+
+    } finally{ // Será executado caso haja erro ou não
+        window.alert("Script finalizado!")
+    }
+
+    // Nesse exemplo temos uma condição que vai gerar um erro caso seja maior que 10
+</script>
