@@ -1,12 +1,9 @@
 // O que faz o innerHTML?
 
 /*
-    
-
-
-
-
-
+    O InnerHTML é responsável pela manipulação dos elementos html em si, ele e capaz 
+    de receber valores e interpretar no navegador(Ele consegue receber valores de Vars Js) e 
+    assim realiza a atribuição.
 */
 
 // var cxt = document.getElementById("cxtexto").value="JavaScript Developer";
@@ -26,10 +23,6 @@
 // Agora sim vamos falar sobre o InnerHTML
 
 /*
-    O InnerHTMl é responsável pela manipulação dos elementos html em si, ele e capaz 
-    de receber valores e interpretar no navegador(Ele consegue receber valores de Vars Js) e 
-    assim realiza a atribuição.
-
     // document.body.innerHTML = '' <-- Nessa caso estamos manipulando o body na nossa página html, passando um String  vazia " "
                                         o body será renderizado totalmente vazio, caso você execute esse comando em alguma
                                         Pagina web ela então irá ficar toda em branco.
