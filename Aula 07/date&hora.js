@@ -1,6 +1,11 @@
 // Trabalhando com data e hora
 
-var dt = new Date()
+/* Nessa aula vamos trabalhar com Date(), ele é uma instância JavaScript que
+   representa um único momento no tempo */
+
+
+
+var dt = new Date() // A partir de agora a Var dt pode utilizar todos os métodos do Date
 var diaSem = dt.getDay() // Pega o dia 
 var dia = dt.getDate() // A data
 var mes = dt.getMonth() // O mês
@@ -22,4 +27,6 @@ console.log(horas + ":" + minutos + ":" + segundos)
 
 // Podemos utilizar o Set para alterar a data e hora, caso você queria adiconar 4 dias a mais na data atual
 
-// Com o date você pode utilizar e manipular Ano, Mês, Dia, Hora, Min, Seg e MilSegundo
+// Com o date você pode utilizar e manipular Ano, Mês, Dia, Hora, Min, Seg e MilSegundo 
+
+/* ndt.setFullYear(dt.getFullYear()+2) <-- Aqui eu estou adicionando dois anos na minha data atual*/
