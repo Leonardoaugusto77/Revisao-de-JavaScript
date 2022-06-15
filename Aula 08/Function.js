@@ -42,8 +42,8 @@ console.log(res)
 
 // Exemplo 04 - Utilizando Array
 
-var numeros = [10,2,5,30,25,19,50,100]
-var medias = [35,49,38,57,32,23,42,50]
+var numeros = [10,2,5,30,25,19,50,100,105]
+var medias = [35,49,35,57,32,23,49,50]
 
 function media(nums){
     var tam = nums.length;
@@ -55,7 +55,7 @@ function media(nums){
 
 }
 
-console.log(media(medias))
+console.log(media(numeros))
 
 
 // Nesse exemplo a cima estamos criando uma função que retorna a media do nosso array números
