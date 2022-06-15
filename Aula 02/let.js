@@ -1,8 +1,6 @@
 /* Criando Vars com Let
     let é mais utilizado para criar variaveis com o escopo
     dentro de condições como if, while, for e etc... 
-
-
 */
 
 var num = 10

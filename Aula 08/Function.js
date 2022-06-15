@@ -16,10 +16,10 @@ function texto(){ // Essa função irá apenas retornar o texto
 }
 
 
-texto() // É importante lembrar que  a função só será executada quando ela for chamada desse jeito aqui
+texto() // É importante lembrar que a função só será executada quando ela for chamada desse jeito aqui
 
 
-// Exemplo 02 - Funções parâmetros
+// Exemplo 02 - Funções com parâmetros
 
 function soma(n1,n2){
     var res = n1 + n2

@@ -20,7 +20,7 @@ mochila.push(item4)
 
 console.table(mochila)
 
-console.log(mochila[0,0]) // No indice zero queremos o item da primeira coluna que tbm é representado com o 0
+console.log(mochila[0,3]) // No indice zero queremos o item da primeira coluna que tbm é representado com o 0
 
 
 

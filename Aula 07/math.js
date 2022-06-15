@@ -39,7 +39,7 @@ var n4 = 4
 
 console.log(Math.pow(n4,2)) // Eleva um número a outro
 
-var n5 = 5
+var n5 = 5.2
 
 console.log(Math.floor(n5)) // Vai aredondar o valor para baixo
 
