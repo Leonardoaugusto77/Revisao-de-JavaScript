@@ -1,7 +1,6 @@
 /*
 IF com múltiplos retornos, basicamente vamos adicionar mais retornas as condições 
-IF assim dando múltiplos retornos pra ela
-
+IF assim dando múltiplos retornos para ela
 
 Exemplo:
 
@@ -10,7 +9,6 @@ if(){
 } else if(){ <--- Multiplo retorno
 
 }
-
 
 OBS...
 Quando temos várias possibilidades de retorno não utilizamos o AND e OR, só utilizamos
@@ -29,7 +27,7 @@ var res
 
 if(nota >= 60){
     res = "Aprovado"
-} else if((nota>=40)&&(nota<60)){
+} else if((nota>=40)&&(nota<60)){ // Dois valores para o mesmo retorno 
     res = "em Recuperação"
 }else{
     res = "Reprovado"

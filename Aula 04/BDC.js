@@ -1,7 +1,8 @@
-/** Bloco de comandos (BDC) {} <- tudo que estiver dentro das chaves vai ser considerado pelo bloco de comando, ela
- * não é necessária em todos os casos, porém é interessante utilizar para uma organização melhor do código veja os exemplos abaixo
- */
-
+/* 
+  Bloco de comandos (BDC) {} <- tudo que estiver nas chaves vai ser considerado pelo bloco de comando, ela
+  não é necessária em todos os casos, porém é interessante utilizar para uma organização melhor do código veja os exemplos abaixo.
+ 
+*/
 
 //Exemplo utilizando as chaves
 

@@ -44,7 +44,7 @@ condição composta
 
 
 
-var nota = 22
+var nota = 60
 var res 
 
 if(nota >= 60){

@@ -7,16 +7,16 @@ if(Teste lógico){ <-- O comando de teste vai retornar dois valores possíveis
     False = 0
 
 *  O que é o teste lógico ?
-    Ele será utilizado com os comparadores de comparação
+    Ele será utilizado com os sinais de comparação
     
 <- Comparadores ->
 
-    Maior  >  5 > 3 = true
-    Menor < 5 < 3 = false
-    Maior ou igual >= 11 >= 10 = true
-    Menor ou igual <= 9 <= 5 = false
-    Diferente != 10 != 12 = true
-    Igualdade == 5 == 5 = true
+    Maior  > ex:  5 > 3 = true
+    Menor < ex: 5 < 3 = false
+    Maior ou igual >= ex: 11 >= 10 = true
+    Menor ou igual <= ex: 9 <= 5 = false
+    Diferente != ex: 10 != 12 = true
+    Igualdade == ex: 5 == 5 = true
 
 
 }
