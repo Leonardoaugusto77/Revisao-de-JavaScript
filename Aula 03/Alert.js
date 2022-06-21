@@ -5,4 +5,4 @@ window.alert("Leonardo Augusto - Desenvolvedor Front end Jr") // Alert mostra um
 
 var canal = "Project_Heisen"
 const ct = 'Programação Web'
-alert(canal + ' ' + ct) // É possível usar vars e const nas caixas de texto e além disso podemos concatenar
+alert(canal + ' ' + ct) // É possível usar vars e const nas caixas de texto e, além disso podemos concatenar

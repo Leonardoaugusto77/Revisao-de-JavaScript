@@ -1,6 +1,6 @@
-// O que são Variaveis?
+// Const no JavaScript?
 
-var canal = "Project_Heisen" // O Armazenamento com o Var permite que você altere o valor dela a qualquer momento dentro do código (Lembrando que o escopo dela é global).  
+var canal = "Project_Heisen" // O Armazenamento com o Var permite que você altere o valor dela a qualquer momento no código (Lembrando que o escopo dela é global).  
 
 canal = "Revisão de JavaScript"
 
