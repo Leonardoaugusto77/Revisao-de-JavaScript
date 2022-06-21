@@ -1,6 +1,7 @@
 /* O que são Arrays?
+
 Array é um objeto global usado na construção de algo como listas, também pode ser usado para armazenar Variáveis 
-Nessa primeira aula vamos ver o metodo push. 
+Nessa primeira aula vamos ver o método push. 
 
 Metodo push -- Adiciona um ou mais elementos ao final de um Array
 ou seja toda vez que o push for executado será adicionado um novo elemento no final da nossa "Lista" vamos ver um exemplo
@@ -11,6 +12,7 @@ ou seja toda vez que o push for executado será adicionado um novo elemento no f
 
 var array = [1,2,3,4] // <-- Lembrando que esse array é um vetor(ou seja um array unidimensional) e só pode ser controlado por um indice
                       // Preste atenção que o nosso array tem 4 posições
+                      
 array.push(5) // Como eu expliquei a cima o push vai adicionar o número 5 no final do Array
 
 console.log(array) // Chamando o Array
@@ -34,7 +36,7 @@ console.log(cor[0])
 
 // Certo é como eu faço para buscar apenas uma cor?
 
-// O Array trabalha com indice ou seja podemos usar cada indice que é criado automaticamente, lembrando que a primeira posição é igual a zero
+// O Array trabalha com indice, ou seja, podemos usar cada índice que é criado automaticamente, lembrando que a primeira posição é igual a zero.
 // ou seja se você digitar console.log(cor[1]) o código vai retornar o Azul
 
 

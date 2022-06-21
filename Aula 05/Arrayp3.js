@@ -1,7 +1,7 @@
 // Aprendendo a utilizar indexOf,
 
 
-// IndexOf <-- É responsavel por procurar um elemento específico dentro no Array e retorna a sua posição
+// IndexOf <-- É responsável por procurar um elemento específico dentro no Array e retorna a sua posição
 
 var mochila = []
 
@@ -12,10 +12,10 @@ mochila.push("Chave") // 3
 mochila.push("Laterna") // 4
 mochila.push("Pedra") // 5
 
-let pos = mochila.indexOf("Pedra")  /* Nesse exemplo usamos o if junto com Array para podermos praticar usar várias ferramentas do JavaScript(ES6) */
+let pos = mochila.indexOf("Pedra")  /* Nesse exemplo usamos o if com Array para podermos praticar usar várias ferramentas do JavaScript(ES6) */
 
 if(pos < 0){
-    console.log("Item não está na mochila!") // Caso o valor recebido por pos for menor a 0 o console vai retornar uma mensagem ea posição do item dentro do Array já que o indexOf está sendo utilizado
+    console.log("Item não está na mochila!") // Caso o valor recebido for menor que 0 o console vai retornar uma mensagem e a posição do item dentro do Array já que o indexOf está sendo utilizado.
 } else{
     console.log("Item está na mochila: "+pos)
 }
@@ -28,8 +28,8 @@ console.log(mochila.indexOf("Laterna")) // <-- Vai retornar o valor
 var num = [9,8,7,6,5,4,3,2,1]
 
 num.sort() // <-- Primeiro organizamos
-num.reverse() // Em seguida a gente reverte a ordem que os números vão retornar
-console.log(num) // <-- Vai deixar o nosso array organizado começando do 0 ao 9
+// num.reverse() // Utilizado para inverter a ordem do Array
+console.log(num) // <-- Vai deixar o nosso array organizado começando do 1 ao 9
 
 // Caso você precise deixar em ordem reversa sabe que existe esse comando que é o reverse()
 

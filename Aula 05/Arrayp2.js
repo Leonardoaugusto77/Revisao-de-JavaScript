@@ -11,6 +11,8 @@ mochila.push("Chave")
 mochila.push("Lanterna")
 mochila.unshift("Pedra") // <-- Atráves do console.log podemos ver que por conta do Unshift a Pedra passa a ficar no indice[0] do nosso Array 
 
+console.log(mochila)
+
 // Pop <-- Remove o último elemento de um array
 
 mochila.pop() // <-- Vai remover a laterna do nosso Array

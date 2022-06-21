@@ -9,7 +9,7 @@ var item1 = ["Corda",2], // O Array item vão ser as linhas
     item3 = ["Laterna",1],
     item4 = ["Pilhas",3]
 
-    //Para acharmos os itens dentro da nossa mochila vamos precisar saber o indice ea posição 
+//Para acharmos os itens dentro da nossa mochila vamos precisar saber o indice ea posição 
 
 
 mochila.push(item1)    
@@ -18,9 +18,10 @@ mochila.push(item3)
 mochila.push(item4)    
 
 
+
 console.table(mochila)
 
-console.log(mochila[0,3]) // No indice zero queremos o item da primeira coluna que tbm é representado com o 0
+console.log(mochila[0,0]) // No indice zero queremos o item da primeira coluna que tbm é representado com o 0
 
 
 
