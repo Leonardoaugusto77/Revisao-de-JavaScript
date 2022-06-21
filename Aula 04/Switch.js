@@ -2,7 +2,7 @@
 
 var pos
 
-pos = 1
+pos = 0
 
 switch(pos){ // <-- Condição(Var) que vai ser testada
     case 1: 
