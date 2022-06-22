@@ -25,6 +25,7 @@ for(let i = 0; i < 5; i++){
 
 var cont 
 
+
 for(cont=0; cont < 10; cont++){
     console.log("Leonardo Augusto - Desenvolvedor Front - end")
 }
@@ -68,4 +69,4 @@ for(let l=0; l < 4; l++){ // Controla o indice raiz
     
 
 }
-
+console.log(mochila[0][0])
