@@ -25,13 +25,11 @@
 
  // Podemos também retornar um form inteiro, por exemplo:
 
-
  var fm4 = document.forms.namedItem("curso2").innerHTML
  document.write(fm4)
 
 
 // Manipulando os forms
-
 
  var fm5 = document.forms["curso1"].elements[0].value // Os elements são os itens de dentro do Form
 
