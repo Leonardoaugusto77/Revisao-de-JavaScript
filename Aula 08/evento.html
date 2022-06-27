@@ -13,12 +13,32 @@
     </style>
     <title>Document</title>
 </head>
-<body onload="ola()">
+<body onload="ola()"> <!--Evento que chama a mensagem de Boas vindas!-->
 
 
-    <div id="dv1" onmouseover="mudaCor(this,'#f00')" onmouseout="mudaCor(this,'#fff')"></div> 
+    <div id="dv1" onmouseover="mudaCor('#f00')" onmouseout="mudaCor(this,'#fff')"></div> 
+
+    <!-- 
+    Com os eventos onmouseouver(quando o mouse estiver em cima do contéudo) e onmouseout (quando o mouse sai do contéudo), toda
+    vez que passarmos o mouse pela div ela irá trocar de cor, o this serve para referencia que eu quero mudar a div que está
+    recebendo os eventos.   
+
+    A referência ao this sempre se refere a (e contém o valor de) um objeto — um objeto singular
+    e normalmente é usado dentro de uma função ou método, embora possa ser usado fora de uma função no escopo global
+
+    Resumo do comando This
+
+    - Fora de escopos locais o This sempre se refere ao objeto Global Window
+
+    - Em objetos o this se referir a instância e pode acessar suas propriedades
+    
+    -->
+
+
     <br>
     <button onclick="alert('Desenvolvedor Front - End')"  onmouseover="mudaPos(this)">Clique em mim!</button>
+
+    <button onmouseup="mudaPos(this)">Teste do This</button>
     
 </body>
 </html>
