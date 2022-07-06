@@ -35,6 +35,11 @@ soma(5,2) // Aqui estamos passando dois parâmetros para as vars n1 e n2
 
 function soma2(n1,n2){
     return n1+n2 // Estamos pedindo para o return somar o n1 + n2
+
+    // Return
+
+    /* A declaração return finaliza a execução de uma função e 
+       especifica os valores que devem ser retonados para onde a função foi chamada.*/
 }
 var res = soma2(5,5) // Podemos adicionar a função dentro de uma váriavel 
 console.log(res)
@@ -42,13 +47,11 @@ console.log(res)
 
 // Exemplo 04 - Utilizando Array
 
-var numeros = [10,2,5,30,25,19,50,100,105]
-var medias = [35,49,35,57,32,23,49,50]
-
+var numeros = [10,2,5,30,25,19,50,100] 
 function media(nums){
     var tam = nums.length;
     var soma = 0
-    for(var i = 0; i < tam; i++){
+    for(var i = 0; i < tam; i++){ // Será somado e divido pelo numero de elementos que é 8
         soma+=nums[i]
     }
     return Math.round(soma/tam)

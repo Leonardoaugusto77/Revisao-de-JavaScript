@@ -8,8 +8,7 @@
 
  function mudaCor(obj,cor){
     obj.style.backgroundColor=cor
-
- }
+}
  
 mudaCor()
 
