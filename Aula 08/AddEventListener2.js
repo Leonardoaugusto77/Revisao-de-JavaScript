@@ -54,7 +54,5 @@ window.addEventListener('load', inicia)
 Na programação é comum chamar uma função dentro da outra, no exemplo a cima criamos uma função
 chamada inicia (A) que vai chamar a função addMove (B), que por sua vez vai chamar os eventos de keydown e a função move (C), por
 ultimo adicionamos um evento de load (D) que vai puxar todas as rotinas programadas anteriormente e assim o programa será executado. 
-
-
 */
 
