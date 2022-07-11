@@ -27,12 +27,26 @@ dv1.addEventListener("click", msg)
 var btn = document.getElementById("btn")
 
 function btns(){
-    btn.style.background = "red"
+    btn.style.background = "purple"
 }
 
 
 btn.addEventListener("dblclick", btns)
 
+/* No exemplo  a cima estamos mudando a cor do nosso botão com um duplo click */
+
+
+// Exemplo 03:
+
+
+var dv2 = document.getElementById("dv2")
+
+dv2.addEventListener('mouseenter', function mudacor2(){
+    dv2.style.backgroundColor = "green"
+
+})
+
+/*  No addEvent podemos utilizar funções como parâmetros assim reduzindo o código espalhado */
 
 
 

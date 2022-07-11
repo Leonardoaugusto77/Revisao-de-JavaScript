@@ -10,8 +10,6 @@
     obj.style.backgroundColor=cor
 }
  
-mudaCor()
-
 
 /*
     Na função a cima passamos dois parâmetros para a função mudaCor(), logo a baixo
@@ -31,6 +29,16 @@ function mudaPos(obj){
 }
 
 
+/* 
+   No exemplo 02 vamos criar uma função que muda a posição do botão toda vez que passarmos o mouse por cima,
+   obj vai receber o style.positon absolute que permite a movimentação do elemento pelo display, logo a baixo iremos usar
+   o método math.random multiplicado por 500 pixels, ou seja, a cada vez que a função for executada o botão ira para uma posição aleatória
+   se deslocando 500pxs
+*/
+
+
+// Exemplo - 03
+
 function ola(){
     let data = new Date() // Pega os métodos do Date
     var hora = data.getHours() // Pega as horas da máquina
@@ -48,3 +56,6 @@ function ola(){
     alert("Olá, " + txt)
 
 }
+
+
+// No exemplo a cima estamos criando uma mensagem de Boas-vindas que será executada quando a página for carregado
