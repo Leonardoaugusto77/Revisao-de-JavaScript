@@ -23,3 +23,13 @@ for(let i = 0; i < 4; i++){
         n[i].style.color="#00f"
     }
 }
+
+
+
+
+
+
+
+const updateValue = () =>{
+    
+}

@@ -48,6 +48,9 @@ function trocar(){
     carregarImg(imgAtual)
 }
 
+
+// Parte central do slider
+
 window.addEventListener("load", ()=>{
     preCarregamento()
     imgAtual = 0
