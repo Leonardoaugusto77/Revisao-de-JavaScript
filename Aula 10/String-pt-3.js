@@ -36,3 +36,37 @@ if(res == 0){
 }
 
 document.write(res)
+
+
+/* Slice - Corta a string em um ponto especifico   */
+
+var texto = document.getElementById("txt").innerHTML
+
+var res = texto.slice(10,32) // Usando anotação de array vamos indicar de qual a qual queremos cortar com o slice
+
+document.write(res)
+
+
+/* Split - Pica a string no carcter que for indicado    */
+
+var texto = document.getElementById("txt").innerHTML
+
+var res = texto.split(" ") // Usando anotação de array vamos indicar de qual a qual queremos cortar com o slice
+
+document.write(res[5])
+
+/* toLocaleLowerCase - converte as strings em letras minusculas     */
+
+var texto = document.getElementById("txt").innerHTML
+
+var res = texto.toLocaleLowerCase() // Usando anotação de array vamos indicar de qual a qual queremos cortar com o slice
+
+document.write(res)
+
+/* toLocaleUpperCase - converte as strings em letras MAIUSCULAS     */
+
+var texto = document.getElementById("txt").innerHTML
+
+var res = texto.toLocaleUpperCase().slice(10,32) // Usando anotação de array vamos indicar de qual a qual queremos cortar com o slice
+
+document.write(res)
