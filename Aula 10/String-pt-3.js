@@ -42,7 +42,8 @@ document.write(res)
 
 var texto = document.getElementById("txt").innerHTML
 
-var res = texto.slice(10,32) // Usando anotação de array vamos indicar de qual a qual queremos cortar com o slice
+var res = texto.slice(10,25) // Usando anotação de array vamos indicar de qual a qual queremos cortar com o slice, os espaços entre as strings são considerados uma posição
+
 
 document.write(res)
 
