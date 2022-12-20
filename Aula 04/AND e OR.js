@@ -41,3 +41,5 @@ if((pontos >=30 ) && (pontos <= 40) // = V
 } else{
     console.log("Você perdeu!")
 }
+
+

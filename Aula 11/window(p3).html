@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        iframe{
+            border: 1px solid #000;
+        }
+    </style>
+    <title>Window pt 2</title>
+</head>
+<body>
+   <iframe src="" frameborder="0"></iframe>
+   <iframe src="" frameborder="0"></iframe>
+   <iframe src="" frameborder="0"></iframe>
+   <iframe src="" frameborder="0"></iframe>
+   <iframe src="" frameborder="0"></iframe>
+
+
+   <br>
+
+
+   <div class="painel"></div>
+
+    <button onclick="mudacor('#f00')">Mudacor1</button>
+    <button onclick="mudacor('#ddd')">Mudacor2</button>
+    <button onclick="mudacor('#0f0')">Mudacor3</button>
+
+
+</body>
+</html>
+<script>
+    const mudacor = (cor) =>{
+        parent.document.body.style.backgroundColor = cor // o parant faz a referencia a pagina pai no qual está sendo renderizada
+    }
+</script>
+<script src="window(p3)"></script>

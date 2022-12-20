@@ -27,11 +27,13 @@ var nomeCor = "Vermelho"
 
 
 function cor(){
-    var nomeCor =  "Azul" 
+    let nomeCor =  "Azul" 
     console.log(this.nomeCor + " " +  nomeCor) // No console o valor retorna Undefined
 }
 
 cor()
+
+
 for(var i=0;i<10;i++){
 
 }
@@ -50,3 +52,5 @@ console.log(i)
 
 
 */
+
+
