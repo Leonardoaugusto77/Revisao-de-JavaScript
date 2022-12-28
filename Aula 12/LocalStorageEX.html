@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #fconf{
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            border: 1px solid #000;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            display: none;
+        }
+    </style>
+    
+</head>
+<body>
+
+    <p>LocalStorage - Curso de JavaScript</p>
+    <p id="painel"></p>
+
+    <button onclick="mostrarForm()">Configurações</button>
+
+    <form name="fconf" id="fconf">
+        <label for="">Nome:</label><br>
+        <input type="text" name="fnome" id="fnome" size="20"><br>
+        <label for="">Cor de fundo</label> <br>
+        <input type="radio" name="fcorF" id="" onclick="defineCor(1, '#f00')">Vermelho <br>
+        <input type="radio" name="fcorF" id="" onclick="defineCor(1, '#0f0')">Verde <br>
+        <input type="radio" name="fcorF" id="" onclick="defineCor(1, '#00f')">Azul <br>
+        <label for="">Cor texto:</label> <br>
+        <input type="radio" name="fcorT" id="" onclick="defineCor(0, '#000')">Preto <br>
+        <input type="radio" name="fcorT" id="" onclick="defineCor(0, '#fff')">Branco <br>
+        <input type="button" value="Gravar" onclick="gravar()">
+   </form>
+</body>
+</html>
+<script src="LocalStorageEX.js"></script>
