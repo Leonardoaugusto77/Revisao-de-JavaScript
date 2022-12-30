@@ -3,9 +3,9 @@ O sessionStorage, é bem similar ao localStorage, também servindo para armazena
 que o sessionStorage, possui expiração da sessão
 */
 
-let inp = document.querySelector('#fnome')
 
 function pagina(pg){
+    sessionStorage.nome = document.querySelector('#fnome').value
     window.location.assign('page' + pg + '.html')
 }
 

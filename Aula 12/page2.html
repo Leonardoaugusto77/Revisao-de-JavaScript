@@ -11,8 +11,19 @@
             color: #fff;
         }
     </style>
+
+    <script>
+
+      
+
+        function inicia(){
+            document.querySelector('#painel').innerHTML = sessionStorage.nome
+        }
+
+        window.addEventListener('load', inicia)
+    </script>
 </head>
 <body>
-    <a href="page3.html"></a>
+    <div id="painel"></div>
 </body>
 </html>
