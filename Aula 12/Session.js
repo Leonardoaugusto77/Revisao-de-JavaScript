@@ -17,6 +17,10 @@ function inicia(){
     document.getElementById("btnp3").addEventListener('click',()=>{
         pagina(3)
     })
+    document.getElementById("btnp4").addEventListener('click',()=>{
+        sessionStorage.clear()
+        
+    })
 }
 
 window.addEventListener('load', inicia)
