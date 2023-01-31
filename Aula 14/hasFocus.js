@@ -1,0 +1,1 @@
+/* hasFocus -> Retorna true o false se uma página está em foco ou não */
