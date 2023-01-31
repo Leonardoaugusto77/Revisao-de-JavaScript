@@ -1,0 +1,8 @@
+.noite{
+    transition: 2s;
+    background-color: rgba(0, 0, 0, 0.697);
+}
+
+.dia{
+    background-color: rgba(255, 255, 0, 0.349);
+}
