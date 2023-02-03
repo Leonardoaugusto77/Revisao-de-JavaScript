@@ -7,6 +7,8 @@ function trocaCarro(c){
         obj.setAttribute("class", "c2")
     } else if(c==3){
         obj.setAttribute("class", "c3")
+    } else{
+        obj.setAttribute("class", "c4")
     } 
 }
 
