@@ -40,3 +40,4 @@ for(p of produtos){
     console.log(p[1][1])
 }
 
+
